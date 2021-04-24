@@ -1,0 +1,21 @@
+{%extends "base.html"%}
+%block title% my title %endblock%
+
+{%block content%}
+    <form action="prediction" method="POST" enctype="multipart/form-data" >
+        <input type="file" name="img" >
+        <input type="submit" name="btn" >
+    </form> </h1>
+{%endblock%}
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title> new page</title>
+    </head>
+    <body>
+        <form action="prediction" method="POST" enctype="multipart/form-data" >
+            <input type="file" name="img" >
+            <input type="submit" name="btn" >
+        </form>
+    </body>
+</html> -->
