@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("newindex.html")
+    return render_template("test2.html")
 
 @app.route("/prediction",methods=["GET","POST"])
 def prediction():
